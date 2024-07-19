@@ -1,6 +1,6 @@
 {
-  "name": "json2class",
-  "displayName": "json2class",
+  "name": "json2any",
+  "displayName": "json2any",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -9,15 +9,22 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-      "command": "json2class.convertJsonToJava",
-      "title": "Convert JSON to Java Class"
-    }
+        "command": "json2any.convertJsonToJava",
+        "title": "Convert JSON to Java Class"
+      },
+      {
+        "command": "json2any.convertJsonToTypeScriptType",
+        "title": "Convert JSON to TypeScript Type"
+      },
+      {
+        "command": "json2any.convertJsonToGolangClass",
+        "title": "Convert JSON to GoLang Class"
+      }
     ]
   },
   "scripts": {
@@ -44,5 +51,8 @@
     "webpack-cli": "^5.1.4",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.4.0"
+  },
+  "volta": {
+    "node": "22.5.0"
   }
 }

@@ -1,0 +1,1 @@
+// convert json to golang class
