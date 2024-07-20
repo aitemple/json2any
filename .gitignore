@@ -1,7 +1,8 @@
 out
-dist
 node_modules
 .vscode-test/
 *.vsix
 .vscode
 pnpm-lock.yaml
+dist/*.js
+dist/*.js.map
