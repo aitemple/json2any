@@ -1,4 +1,4 @@
-type JavaType = 'String' | 'int' | 'double' | 'boolean' | 'long' | 'float' | 'Object';
+type JavaType = 'String' | 'Ineteger' | 'double' | 'boolean' | 'long' | 'float' | 'Object' | 'int';
 
 /**
  * Converts a JSON string to a Java class string representation.
@@ -16,12 +16,12 @@ function convertJsonToJava(jsonContent: string): string {
         // 注意：JavaScript 的 number 类型可能需要根据上下文映射到 int 或 double
     };
     for (const key in jsonObject) {
-        const type = typeof jsonObject[key];
+        // const type = typeof jsonObject[key];
+        const type = parseNumber(jsonObject[key]);
 
         javaClass += `    private ${type} ${key};\n`;
         // Add getters and setters here
     }
-
     javaClass += '}\n';
     return javaClass;
 }
@@ -37,6 +37,7 @@ function parseNumber(value: number): JavaType {
                 // 检测 int 和 long
                 if (value >= -Math.pow(2, 31) && value <= Math.pow(2, 31) - 1) {
                     javaType = 'int';
+                    // javaType = 'Integer';
                 } else {
                     javaType = 'long';
                 }
