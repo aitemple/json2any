@@ -1,6 +1,6 @@
-# Json2Class for VS Code
+# json2any for VS Code
 
-Json2Class is an extension developed for Visual Studio Code that automatically converts JSON data into Java classes. This extension is designed to help Java developers quickly generate corresponding Java classes from JSON data, thereby improving development efficiency and reducing manual coding errors.
+json2any is an extension developed for Visual Studio Code that automatically converts JSON data into Java classes. This extension is designed to help Java developers quickly generate corresponding Java classes from JSON data, thereby improving development efficiency and reducing manual coding errors.
 
 ## Features
 
@@ -11,11 +11,11 @@ Json2Class is an extension developed for Visual Studio Code that automatically c
 
 ## Installation
 
-You can install Json2Class through the VS Code Extension Marketplace:
+You can install json2any through the VS Code Extension Marketplace:
 
 1. Open VS Code.
 2. Go to the Extensions view by clicking on the Extensions icon in the sidebar or pressing `Ctrl+Shift+X`.
-3. Type "Json2Class" in the search box.
+3. Type "json2any" in the search box.
 4. Find the extension and click on the install button.
 
 ## Usage
@@ -34,12 +34,12 @@ Contributions of any kind are welcome, including new features, code reviews, doc
 
 ## License
 
-Json2Class is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+json2any is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-# Json2Class for VS Code
+# json2any for VS Code
 
 
-Json2Class 是一个为 Visual Studio Code 开发的扩展，它能够将 JSON 数据自动转换成 Java 类。这个扩展旨在帮助 Java 开发者快速从 JSON 数据生成对应的 Java 类，从而提高开发效率和减少手动编码的错误。
+json2any 是一个为 Visual Studio Code 开发的扩展，它能够将 JSON 数据自动转换成 Java 类。这个扩展旨在帮助 Java 开发者快速从 JSON 数据生成对应的 Java 类，从而提高开发效率和减少手动编码的错误。
 
 ## 功能
 
@@ -50,11 +50,11 @@ Json2Class 是一个为 Visual Studio Code 开发的扩展，它能够将 JSON �
 
 ## 安装
 
-你可以通过 VS Code 的扩展市场安装 Json2Class：
+你可以通过 VS Code 的扩展市场安装 json2any：
 
 1. 打开 VS Code。
 2. 转到扩展视图，可以通过点击侧边栏的扩展图标或按下 `Ctrl+Shift+X`。
-3. 在搜索框中输入 "Json2Class"。
+3. 在搜索框中输入 "json2any"。
 4. 找到扩展后，点击安装。
 
 ## 使用方法
@@ -73,4 +73,4 @@ Json2Class 是一个为 Visual Studio Code 开发的扩展，它能够将 JSON �
 
 ## 许可证
 
-Json2Class 使用 MIT 许可证。详情请查看 [LICENSE](LICENSE) 文件。
+json2any 使用 MIT 许可证。详情请查看 [LICENSE](LICENSE) 文件。
