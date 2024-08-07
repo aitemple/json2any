@@ -18,6 +18,7 @@ suite('Extension Test Suite', () => {
     // Getters and Setters
 }
 `;
-        // 使用 expect 断言实际输出与期望输出是否一致
+            // 使用 expect 断言实际输出与期望输出是否一致
+            assert.strictEqual(javaClassOutput, expectedOutput);
     });
 });

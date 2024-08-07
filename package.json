@@ -1,6 +1,7 @@
 {
-  "name": "json2any",
-  "displayName": "json2any",
+  "publisher": "json-to-any",
+  "name": "json-to-any",
+  "displayName": "json-to-any",
   "description": "",
   "version": "0.0.1",
   "engines": {
